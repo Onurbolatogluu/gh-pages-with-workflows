@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main  # burada main yerine kendi default dalınızın adını yazabilirsiniz
+permissions:
+  contents: write
 
 jobs:
   deploy:
